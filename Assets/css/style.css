@@ -199,11 +199,11 @@ h3, h2 {
   margin-right: 40px;
 }
 
-img {
-  border: 1px solid #ddd;
-  border-radius: 4px;
-  padding: 5px;
+.project img {
   width: 100%;
+  border: 0 none;
+  opacity: 0.8;
+
 }
 
 img:hover {
