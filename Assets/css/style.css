@@ -204,14 +204,14 @@ h3, h2 {
   border: 0 none;
   opacity: 1;
   display: block;
-  width: 300px;
-  height: 300px;
+  width: 250px;
+  height: 250px;
   transition: .5s ease;
   backface-visibility: hidden;
   overflow: auto;
 }
 
-.work h3 {
+.project h3 {
   position: absolute;
   bottom: 20px;
   width: 100%;
