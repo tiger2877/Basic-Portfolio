@@ -201,6 +201,14 @@ h3, h2 {
   margin-right: 25px;
 }
 
+.auth-image {
+  float: left;
+  width: 200px;
+  height: auto;
+  margin-top: 10px;
+  margin-right: 25px;
+}
+
 .project h3 {
   position: absolute;
   bottom: 20px;
