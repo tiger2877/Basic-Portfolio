@@ -123,6 +123,10 @@ nav a {
   border-left: 1px solid #efefef;
 }
 
+nav a:first-child {
+  border-left: 0 none;
+}
+
 /* unvisited link */
 a:link {
   color: red;
@@ -141,9 +145,6 @@ a:hover {
 /* selected link */
 a:active {
   color: blue;
-}
-nav a:first-child {
-  border-left: 0 none;
 }
 
 /* footer */
@@ -198,16 +199,16 @@ h3, h2 {
   margin-right: 40px;
 }
 
-.image {
-  position: relative;
-  border: 0 none;
-  opacity: 1;
-  display: block;
-  width: 200px;
-  height: 200px;
-  transition: .5s ease;
-  backface-visibility: hidden;
-  }
+img {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  width: 150px;
+}
+
+img:hover {
+  box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+}
 
 .project h3 {
   position: absolute;
