@@ -199,12 +199,11 @@ h3, h2 {
 }
 
 .image {
-  width: 100%;
   border: 0 none;
   opacity: 1;
   display: block;
-  width: 100%;
-  height: auto;
+  width: 300px;
+  height: 300px;
   transition: .5s ease;
   backface-visibility: hidden;
 }
