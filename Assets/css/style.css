@@ -140,10 +140,8 @@ footer {
    https://css-tricks.com/couple-takes-sticky-footer/ */
 
    .wrapper {
-    height: auto !important;
-    height: 100%;
     min-height: 100%;
-    margin: 0 auto -105px;
+    
   }
   
   footer,
