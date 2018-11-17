@@ -191,11 +191,6 @@ h3, h2 {
   width: 100%;
   border: 0 none;
   opacity: 0.8;
-
-}
-
-img:hover {
-  box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
 }
 
 .image {
