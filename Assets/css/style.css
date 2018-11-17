@@ -210,6 +210,14 @@ img:hover {
   box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
 }
 
+.image {
+  float: left;
+  width: 300px;
+  height: auto;
+  margin-top: 10px;
+  margin-right: 25px;
+}
+
 .project h3 {
   position: absolute;
   bottom: 20px;
@@ -228,17 +236,7 @@ img:hover {
   cursor: pointer;
   opacity: 0.5;
   background: hotpink;
-  color: black;
-}
-
-
-.image {
-  float: left;
-  width: 300px;
-  height: auto;
-  margin-top: 10px;
-  margin-right: 25px;
-}
+  }
 
 /* contact page */
 
