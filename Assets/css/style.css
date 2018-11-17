@@ -224,10 +224,10 @@ img:hover {
   border-bottom: 0;
 }
 
-.project:hover {
+.project h3:hover {
   cursor: pointer;
   opacity: 0.5;
-  color: hotpink;
+  background: hotpink;
 }
 
 
