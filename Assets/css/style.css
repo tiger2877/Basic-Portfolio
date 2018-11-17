@@ -12,31 +12,6 @@ body {
 
 /* general */
 
-.wrapper {
-  height: auto !important;
-  height: 100%;
-  min-height: 100%;
-  margin: 0 auto -105px;
-}
-
-footer,
-.push {
-  height: 105px;
-}
-
-.overlay {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  height: 100%;
-  width: 100%;
-  opacity: 0;
-  transition: .5s ease;
-  background-color: #008CBA;
-}
-
 .container {
   width: 100%;
   max-width: 960px;
@@ -160,6 +135,21 @@ footer {
   border-top: 8px solid #4aaaa5;
   height: 50px;
 }
+
+/* sticky footer 
+   https://css-tricks.com/couple-takes-sticky-footer/ */
+
+   .wrapper {
+    height: auto !important;
+    height: 100%;
+    min-height: 100%;
+    margin: 0 auto -105px;
+  }
+  
+  footer,
+  .push {
+    height: 105px;
+  }
 
 h3, h2 {
   padding-bottom: 20px;
