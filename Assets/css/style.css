@@ -200,16 +200,14 @@ h3, h2 {
 
 .image {
   position: relative;
-  float: left;
   border: 0 none;
   opacity: 1;
   display: block;
-  width: 250px;
-  height: 250px;
+  width: 200px;
+  height: 200px;
   transition: .5s ease;
   backface-visibility: hidden;
-  overflow: auto;
-}
+  }
 
 .project h3 {
   position: absolute;
