@@ -1,13 +1,30 @@
 body {
-  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  font: 18px 'Raleway', Helvetica, sans-serif;
   font-size: 18px;
   line-height: 34px;
-  color: #777777;
-  background: url("../images/leaves.png");
+  color:#777;
+  background: url("../images/geometry.png");
 }
 
 * {
   box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+.wrapper {
+  height: auto !important;
+  height: 100%;
+  min-height: 100%;
+  margin: 0 auto -105px;
+}
+
+footer,
+.push {
+  height: 90px;
 }
 
 /* general */
@@ -33,8 +50,8 @@ p:last-child {
 h1,
 h2,
 h3 {
-  font-family: Georgia, Times, "Times New Roman", serif;
-  font-weight: 700;
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
   color: #4aaaa5;
 }
 
@@ -42,7 +59,7 @@ h1 {
   padding-bottom: 20px;
   font-size: 30px;
   line-height: 49px;
-  border-bottom: 3px solid #dddddd;
+  border-bottom: 1px solid #ddd;
 }
 
 h2,
@@ -50,37 +67,29 @@ h3 {
   font-size: 22px;
 }
 
-h4 {
-  font-size: 18px;
-  text-align: center;
-  color: black;
-  }
-
 /* header */
 
-#masterhead {
-  position: fixed;
-  z-index: 99;
+#masthead {
+  position: static;
   width: 100%;
   margin: 0 0 30px;
-  overflow:hidden;
-  color: #ffffff;
-  background: #ffffff;
-  border-bottom: 2px solid #cccccc;
+  overflow: auto;
+  color: #fff;
+  background: #fff;
 }
 
 #logo {
   float: left;
-  width: 250px;
+  width: 300px;
   height: 90px;
-  font-family: Georgia, Times, "Times New Roman", serif;
+  font-family: 'Lato', san-serif;
   font-size: 30px;
-  font-weight: 700;
+  font-weight: 200;
   line-height: 90px;
-  color: #ffffff;
+  color: #fff;
   text-align: center;
   text-decoration: none;
-  background: #4aaaa5;
+  background-color:  #4aaaa5;
 }
 
 nav {
@@ -102,24 +111,8 @@ nav a:first-child {
   border-left: 0 none;
 }
 
-/* unvisited link */
-a:link {
-  color: red;
-}
-
-/* visited link */
-a:visited {
-  color: green;
-}
-
-/* mouse over link */
-a:hover {
-  color: hotpink;
-}
-
-/* selected link */
-a:active {
-  color: blue;
+nav a:hover {
+  color: #347773;
 }
 
 /* footer */
@@ -128,55 +121,61 @@ footer {
   padding: 30px 0;
   clear: both;
   font-size: 12px;
-  color: #ffffff;
-  color: #cccccc;
+  color: #fff;
   text-align: center;
-  background: #666666;
-  border-top: 8px solid #4aaaa5;
-  height: 50px;
+  background-color:  #666;
+  border-top: 3px solid #4aaaa5;
 }
 
-/* sticky footer 
-   https://css-tricks.com/couple-takes-sticky-footer/ */
+/* sidebar */
 
-   .wrapper {
-    height: 100%;
-    min-height: 100%;
-    margin: 0 auto -100px;
-  }
-  
-  footer,
-  .push {
-    height: 50px;
-  }
+.sidebar {
+  float: right;
+  width: 100%;
+  max-width: 270px;
+  padding: 30px;
+  margin-bottom: 20px;
+  background: #fff;
+  border: 1px solid #ddd;
+}
 
-h3, h2 {
+h3,
+.sidebar h2 {
   padding-bottom: 20px;
   margin-bottom: 15px;
   line-height: 22px;
-  border-bottom: 2px solid #eeeeee;
+  border-bottom: 1px solid #eee;
+}
+
+.social {
+  display: inline;
+}
+
+.social a:hover {
+  cursor: pointer;
+  opacity: 0.8;
+}
+
+.fa {
+  color: #333;
+  padding: 0 8px;
 }
 
 /* main */
 
-#main-container {
-  padding-top: 130px;
-  min-height: calc(100vh - 70px);
-}
-
 .main-section {
   float: left;
   width: 100%;
-  max-width: 960px;
+  max-width: 650px;
   padding: 30px;
   margin: 0 0 40px;
-  background: #ffffff;
-  border: 1px solid #dddddd;
+  background: #fff;
+  border: 1px solid #ddd;
 }
 
 /* portfolio page */
 
-.project {
+.work {
   position: relative;
   float: left;
   width: 274px;
@@ -184,26 +183,32 @@ h3, h2 {
   overflow: auto;
 }
 
-.project:nth-child(even) {
+.work:nth-child(even) {
   margin-right: 40px;
 }
 
-.project img {
+.work img {
   width: 100%;
   border: 0 none;
   opacity: 0.8;
 }
 
-.image {
-  float: left;
-  width: 300px;
-  height: auto;
-  margin-top: 10px;
-  margin-right: 25px;
+.work h3 {
+  position: absolute;
+  bottom: 20px;
+  width: 100%;
+  padding: 15px;
+  margin-bottom: 0;
+  font-weight: 300;
+  line-height: 30px;
+  color: #fff;
+  text-align: center;
+  background: #4aaaa5;
+  border-bottom: 0;
 }
 
-img:hover {
-  box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+.work h3:hover {
+  background: #347773;
 }
 
 .auth-image {
@@ -213,26 +218,6 @@ img:hover {
   margin-top: 10px;
   margin-right: 25px;
 }
-
-.project h3 {
-  position: absolute;
-  bottom: 20px;
-  width: 100%;
-  padding: 15px;
-  margin-bottom: 0;
-  font-weight: 300;
-  line-height: 30px;
-  color: #ffffff;
-  text-align: center;
-  background: #4aaaa5;
-  border-bottom: 0;
-}
-
-.project h3:hover {
-  cursor: pointer;
-  opacity: 0.5;
-  background: hotpink;
-  }
 
 /* contact page */
 
@@ -258,7 +243,7 @@ textarea {
   height: 35px;
   padding: 0 10px;
   font-size: 14px;
-  border: 1px solid #dddddd;
+  border: 1px solid #ddd;
 }
 
 textarea {
@@ -268,8 +253,126 @@ textarea {
 input[type=submit] {
   padding: 10px 30px;
   font-size: 18px;
-  color: #ffffff;
+  color: #fff;
   cursor: pointer;
   background: #4aaaa5;
   border: 0 none;
+}
+
+/* Animation */
+
+@keyframes polyRotate {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+  .polyRotate {
+    animation: polyRotate 14s linear infinite;
+  }
+
+/* Responsive */
+
+@media (max-width: 980px) { 
+  .container {
+    max-width: 700px;
+  }
+
+  .main-section {
+    max-width: 400px;
+  }
+
+  .auth-image {
+    clear:left;
+    float: none;
+    width: 100%;
+  }
+
+  .work {
+    float: none;
+    width: 100%;
+  }
+}
+
+@media (max-width: 768px) { 
+  .container {
+    max-width: 725px;
+  }
+
+  .main-section {
+    max-width: 100%;
+    margin-bottom: 0px;
+  }
+
+  .auth-image {
+    float: left;
+    width: 200px;
+  }
+
+  .work {
+    float: left;
+    width: 274px;
+  }
+
+  .sidebar {
+    float: left;
+    width: 100%;
+    max-width: 725px;
+    margin: 30px 0;
+  }
+}
+
+@media (max-width: 640px) { 
+  #masthead > .container {
+    max-width: 640px;
+  }
+
+  .container {
+    max-width: 600px;
+  }
+
+  .main-section {
+    max-width: 100%;
+  }
+
+  #logo {
+    width: 100%;
+  }
+
+  nav {
+    clear: both;
+    float: none;
+    text-align: center;
+    padding: 15px 0;
+  }
+
+  nav a {
+  padding: 0 30px;
+  margin-left: 15px;
+  font-size: 15px;
+  }
+
+  nav a:first-child {
+    margin-left:0;
+  }
+
+  .auth-image {
+    float: none;
+    width: 100%;
+  }
+
+  .sidebar {
+    float: left;
+    width: 100%;
+    max-width: 600px;
+    margin: 30px 0;
+  }
+
+  .work {
+    float: none;
+    width: 100%;
+  }
 }
