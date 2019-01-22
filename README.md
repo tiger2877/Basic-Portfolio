@@ -1,214 +1,110 @@
-Recommended Assignment - That Portfolio Though
+Updated Portfolio Page
 
 
 Overview
 
-In this assignment, you'll build a professional portfolio site using HTML/CSS. These instructions include a short style guide; follow it to design an aesthetically pleasing layout while creating different kinds of complex HTML elements.
+Now that you've had some practice with HTML and have a project to share, you'll be updating your portfolio page and other materials to build toward being employer competitive.
 
+If you are opting out of career services, this is still a required assignment. Part of being a web developer means being a part of a community. Having a place to share your projects is necessary if you're applying for jobs, but is still critical on your journey as a developer.
 
-Before You Begin
 
+Before you Begin
 
-Welcome to your first opportunity as a front-end web designer. You will be advocating for your most important client—yourself! By making a portfolio, you'll take your first step toward building your web development brand.
-This will be one of your harder assignments, if only because you're just getting your feet wet in web design. Trust us, though; it will get easier. Invest your time in this assignment, and it will pay dividends!
 
 
+Pin some repos that you want to share
 
-Submission on BCS
 
+Navigate to your GitHub Profile
 
-Please submit the link to the Github Repository!
+Click "Customize your pinned repositories"
+Click the "Repositories you contribute to" checkbox (this will allow you to "pin" Project 1 even if you aren't the "owner")
+Click the checkboxes for your project and 2-3 homework assignments that you would like to share
+Make sure each of these projects is deployed and add a link to the deployed project in their README files
 
 
 
-Instructions
+Revisit your portfolio page
 
 
-Create a new repository in GitHub called Basic-Portfolio.
-Clone this repository to your computer using the process we went over in class.
-Navigate to the Basic-Portfolio folder that you just cloned onto your machine. Inside this folder, create the following:
+Open up your old portfolio page
+Read through the rest of the homework requirements and decide whether you can update your existing portfolio page or if you want to start fresh now that you've had some more HTML/CSS practice (you may also want to change it to be a single page instead of multiple pages or you might even want to consider using a paid theme)
 
 
 
-3 HTML documents: index.html, contact.html and portfolio.html.
-A folder called assets.
-Inside the assets directory, make two additional folders: css and images.
 
 
-In the css folder, make a file called style.css.
-In the images folder, save the images you plan on using (like your profile image and the placeholder images for the portfolio).
+Required: Update your Portfolio Site -- Employer Ready
 
+To receive a passing grade on this assignment, you should meet the following
+content and design requirements. These are aligned with what you will need to be
+employer ready.
 
 
+Content
 
+Your updated site should have the following content:
 
-Push the above changes to GitHub.
 
+Your name
+Links to your GitHub profile & LinkedIn page as well as your email address
 
+List of projects. For each project make sure you have the following:
 
-Make sure to git add . and git commit -m "initial site files". Then type git push origin master to push your changes to your GitHub repo.
 
+Project title
+Link to the deployed version
+Link to the code on GitHub
 
 
-Reference these screenshots for your site:
 
 
 
+Design
 
+The content of your portfolio page is a lot more important than the aesthetics. That said, there are a couple basic requirements your portfolio page should meet:
 
 
+Mobile-friendliness: you don't need advanced responsive styles, but you should ensure that your portfolio page is still readable on different screen sizes
+Readability: make sure the font size is large enough to read, and that the colors don't cause eye strain.
 
 
 
+Suggested: Update Portfolio -- Employer Competitive
 
-IMPORTANT Your site's layout must match the designs in these screenshots. You'll find the specs for these designs below.
+To receive an "A" on this assignment, you should also meet the following requirements
+to ensure your portfolio site will help you be employer competitive.
 
 
+Competitive Content
 
-When you create a website, it's standard practice to code your HTML files before writing any CSS and to write up one HTML file before moving onto the next. Write your HTML semantically, too:
 
+At least 3 deployed projects
 
+External content:
 
-If something is a heading, you use a heading tag.
-If something is a list, you use an unordered or ordered list tag.
-So on and so forth.
 
+Update your LinkedIn with the projects you've worked on so far
+Update the README for each project you linked to with a description of the problem,
+how you solved it, and some information about your technical approach
+Suggested: refactor some of your code from earlier assignments to make them more readable
 
 
-The content for the index.html should be unique to you.
 
 
 
-Write a paragraph or two about yourself. Make it fun, show your personality!
-The main logo where it says "Your Name" should say your name. This may make the logo section smaller or wider depending on how long your name is—that is fine and expected.
-Add, commit, and push your code to GitHub often, especially when you complete a page.
+Competitive Design
 
+Unfortunately, this is where it gets a little bit subjective. Your site should look
+"polished." Here are a few guidelines on what that means:
 
 
-After all of your HTML is written, you can begin styling your pages using the style.css file you created.
+Mobile-first design: you should be proud to pull out your phone and share
+your portfolio site with a friend, family member, or someone at a meetup.
+Polish: choose a color palette for your site so it doesn't just look like
+the default bootstrap theme or an unstyled HTML site.
+Images: add a meaningful screenshot for each of your projects
 
 
-
-Be sure to validate your html.
-Consult the specs below these instructions for advice on styling your CSS files.
-
-
-
-Push your changes to Github.
-
-
-
-Additional Specifcations
-
-
-
-Colors Pro-tip: Use the Eye Dropper Chrome extension to find the colors used on web pages.
-
-
-Teal color (used for headings and backgrounds): #4aaaa5
-
-Regular font color (used for paragraphs and all text besides the headings): #777777
-
-Main header background color: #ffffff
-
-Main header border color: #cccccc
-
-Footer background color: #666666
-
-Main content background color: #ffffff
-
-Main content border color: #dddddd
-
-
-
-
-Fonts:
-
-
-For heading fonts use font-family: 'Georgia', Times, Times New Roman, serif;.
-For all other fonts use 'Arial', 'Helvetica Neue', Helvetica, sans-serif;.
-
-
-
-Profile Image Found on index.html:
-
-
-Use a picture of yourself.
-If you don't have a picture, you can grab a placeholder image from LoremPixel. Save the images to your images folder.
-
-
-
-Portfolio Images:
-
-
-Placeholder images can be found at LoremPixel.
-Save the images to your images folder.
-
-
-
-Background Images:
-
-
-The background pattern used was found on Subtle Patterns. You can browse through that site and find whichever pattern you like.
-
-
-
-Dimensions:
-
-
-The entire content and the main section content area is 960px wide.
-Pro-tip: Use the Page Ruler extension to measure the size of elements.
-
-
-
-
-
-
-
-Bonus
-
-
-Make your pages more sophisticated by adding style to text links, to image links, and to buttons for when a user hovers their cursor over them. A CSS hover tutorial can be found here.
-You can use Adobe Kuler to find colors that match the theme (in this case, the primary color is Teal #4aaaa5).
-
-Make a "sticky footer." You will notice the dark grey footer will always rest just below the content. This is fine whenever your site has enough content to push it down past the height of most monitors. But if there isn't much content in the body, the footer could rest in the middle of the page:
-
-
-Try to code the footer in a way that it will always remain at the bottom of the page, no matter how short the content is. A sticky footer tutorial can be found here.
-Give the Footer the following CSS:
-border-top: 8px solid #4aaaa5;
-
-
-
-
-
-Helpful Hints
-
-
-For help with Git and GitHub, be sure to consult the GitHub Supplemental Guide sent to you in class.
-Don't forget to look into these concepts: float, padding, margin, display, overflow, clear and text-align.
-This will be a tough assignment, but towards the end of the course, you'll look back to this exercise and realize just how much you've grown as a developer. Stay positive! You've got this!
-
-
-
-Reminder: Submission on BCS
-
-
-Please submit the link to the Github Repository!
-
-
-
-
-
-Minimum Requirements
-
-Attempt to complete homework assignment as described in instructions. If unable to complete certain portions, please pseudocode these portions to describe what remains to be completed.
-
-
-
-
-One More Thing
-
-If you have any questions about this project or the material we have covered, please post them in the community channels in slack so that your fellow developers can help you! If you're still having trouble, you can come to office hours for assistance from your instructor and TAs.
-
-Good Luck!
+If you want a slick-looking site, but don't feel good about your CSS skills,
+check out CV, Resume, and Portfolio site templates on ThemeForest
