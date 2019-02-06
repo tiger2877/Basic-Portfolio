@@ -4,10 +4,18 @@
 <head>
   <meta charset="UTF-8">
   <title>Portfolio | Budhi Cahyadi</title>
+
+   <!-- Linking CSS -->
   <link rel="stylesheet" type="text/css" href="Assets/css/reset.css">
   <link rel="stylesheet" type="text/css" href="Assets/css/style.css">
+
+  <!-- Linking Fonts -->
   <link href="https://fonts.googleapis.com/css?family=Lato:300,400,900|Raleway:300,400,600" rel="stylesheet">
   <script src="https://use.fontawesome.com/975495775e.js"></script>
+
+  <!-- Added link to the jQuery Library -->
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
 </head>
 
 <body>
@@ -77,6 +85,22 @@
             &copy; 2018 Budhi Cahyadi
           </div>
         </footer>
+
+    <script>
+    $(document).ready(function(){
+	$('.hamburger').click(function(e){
+		$menu = $(this).parent();
+		if(!$(this).hasClass('active')) {
+			$(this).addClass('active');
+			$menu.addClass('open');
+		} else {
+			$(this).removeClass('active');
+			$menu.removeClass('open');
+		}
+		e.preventDefault();
+	});
+})
+    </script>
 </body>
 
 </html>
