@@ -3,6 +3,7 @@
 
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, maximum-scale=2, user-scalable=yes">
   <title>Portfolio | Budhi Cahyadi</title>
 
    <!-- Linking CSS -->
@@ -87,16 +88,17 @@
         </footer>
 
     <script>
-    $(document).ready(function(){
-	$('.hamburger').click(function(e){
-		$menu = $(this).parent();
-		if(!$(this).hasClass('active')) {
-			$(this).addClass('active');
-			$menu.addClass('open');
-		} else {
-			$(this).removeClass('active');
-			$menu.removeClass('open');
-		}
+$(document).ready(function(){
+  $('.hamburger').click(function(e){
+      $menu = $(this).parent();
+          if(!$(this).hasClass('active')) {
+              $(this).addClass('active');
+              $menu.addClass('open');
+          } 
+          else {
+              $(this).removeClass('active');
+              $menu.removeClass('open');
+          }
 		e.preventDefault();
 	});
 })
