@@ -25,16 +25,14 @@
     <div class="container">
         <a href="index.html" id="logo"><img src="Assets/images/logo.jpg" width="50" height="42" class="polyRotate" alt="logo">&nbsp;&nbsp;Budhi Cahyadi</a>
       <nav>
-        <div class = "hamburger">
-            <span class="hamburger-bun"><a href="index.html">About</a></span>
-            <span class="hamburger-patty"><a href="portfolio.html">Portfolio</a></span>
-            <span class="hamburger-bun"><a href="contact.html">Contact</a></span>
-        </div>
+            <a href="index.html">About</a></span>
+            <a href="portfolio.html">Portfolio</a></span>
+            <a href="contact.html">Contact</a></span>       
       </nav>
     </div>
   </header>
 
-      <div class="wrapper">
+<div class="wrapper">
   <div id="main-container" class="container">
     <section class="main-section">
       <h1><a href="portfolio.html">Portfolio 1</a> | <a href="#">Portfolio 2</a> </h1> 
@@ -76,22 +74,6 @@
           </div>
         </footer>
 
-    <script>
-$(document).ready(function(){
-  $('.hamburger').click(function(e){
-      $menu = $(this).parent();
-          if(!$(this).hasClass('active')) {
-              $(this).addClass('active');
-              $menu.addClass('open');
-          } 
-          else {
-              $(this).removeClass('active');
-              $menu.removeClass('open');
-          }
-		e.preventDefault();
-	});
-})
-    </script>
 </body>
 
 </html>
