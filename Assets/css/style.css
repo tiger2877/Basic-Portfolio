@@ -27,6 +27,20 @@ footer,
   height: 100px;
 }
 
+/* Create three equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 33.33%;
+  display: none; /* Hide all elements by default */
+}
+
+/* Clear floats after rows */ 
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
 /* The "show" class is added to the filtered elements */
 .show {
   display: block;
